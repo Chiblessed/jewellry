@@ -1,0 +1,107 @@
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: relative;
+   z-index: -1;
+
+    }
+.leftSide {
+    position: absolute;
+    padding-left: 55%;
+    padding-top: 50% ;
+    padding-bottom: 90px;
+}
+.leftSide h2{
+    margin-top: 28%;
+    padding-bottom: 10px ;
+    font-size: 65px;
+    font-family: Alegreya;
+    font-weight: 400;
+}
+.leftSide h5{
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin-top: 10px;
+    line-height: 1.3;
+}
+.leftSide button{
+    border: none;
+    font-size: 16px;
+    font-family: Montserrat;
+    border-bottom: 1px solid black;
+    width: 20%;
+    background: transparent;
+    height: 40px;
+padding: 10px;
+}
+.leftSide button a{
+    text-decoration: none;
+    color: black;
+}
+.leftSide button:hover{
+    border: none;
+    width: 25%;
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    
+}
+ .rightSide img{
+    position: absolute;
+    left: -2%;
+    top: -1%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1000;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .leftSide {
+        position: absolute;
+        padding-left: 1%;
+        padding-top: 170% ;
+        padding-bottom: 90px;
+    }
+    .rightSide img{
+        position: absolute;
+        left: 0%;
+        top: -1%;
+        width: 100%;
+        height: 100vh;
+        z-index: -1;
+    }
+
+    .leftSide h2{
+        padding-bottom: 10px ;
+        font-size: 47px;
+        font-family: Alegreya;
+        font-weight: 400;
+        text-shadow: 2px 3px #aaa8a8;
+    }
+    .leftSide h5{
+        font-size: 30px;
+        padding-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        margin-top: 10px;
+        line-height: 1.3;
+    }
+    .leftSide button{
+        border: none;
+        font-size: 18px;
+        font-family: Montserrat;
+        border-bottom: 1px solid black;
+        width: 40%;
+        background: transparent;
+        height: 40px;
+    padding: 10px;
+    }
+}
+
+

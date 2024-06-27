@@ -1,0 +1,196 @@
+h1{
+    padding-top: 8%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.contact{
+    padding-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+  
+   margin: 3rem auto auto auto;
+}
+.number{
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.socials{
+    flex-direction: column;
+    margin-left: 60px;
+    text-align: left;
+    margin-top: 20px;   
+}
+.socials img{
+    width: 2.5%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.socials h2{
+    font-weight: 300;
+    font-size: 30px;
+
+}
+.number h2{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 300;
+}
+.number p{
+    text-align: left;
+    font-size: 20px;
+}
+.location{
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.location h2{
+    font-size: 30px;
+    font-weight: 300;
+}
+.location p{
+    font-size: 20px;
+}
+.inputField{
+    flex-direction: column;
+    margin-right: 170px;
+}
+.inputField h2{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.inputField input{
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Alegreya;
+    outline: none;
+    border: 1px solid black;
+}
+.inputField input:hover{
+    border: none;
+    border-bottom: 2px solid black;
+}
+.inputField textarea{
+    width: 100%;
+    height: 95px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Alegreya;
+    outline: none;
+    border: 1px solid black;
+    resize: none;
+}
+.inputField textarea:hover{
+    border: none;
+    border-bottom: 2px solid black;
+}
+.inputField button{
+    width: 20%;
+    height: 30px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-family: Alegreya;
+    margin-bottom: 30px;
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.sentmessage{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .contact{
+        flex-direction: column-reverse;
+        z-index: 1000;
+    }
+    .inputField{
+        margin-right: 20px;
+    }
+    .details{
+display: flex; 
+flex-direction: column; 
+align-items: center;
+justify-content: center;
+  }
+  .location{
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: -94px;
+}
+.location h2{
+    font-size: 20px;
+}
+.location p{
+    font-size: 16px;
+}
+.number h2{
+    font-size: 20px;
+}
+.number p{
+    font-size: 16px;
+}
+.socials h2{
+    font-size: 20px;
+}
+.number{
+    flex-direction: column;
+    margin-left: -240px;
+    margin-top: 10px;
+}
+.socials{
+    flex-direction: row;
+    margin-left: 0px;
+    text-align: left;
+    margin-top: 20px;   
+}
+}
+@media only screen and (max-width: 1200px) {
+    h1{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .inputField{
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .number{
+        flex-direction: column;
+        margin-left: 6px;
+        margin-top: 20px;
+    }
+    .socials{
+        flex-direction: column;
+        margin-left: 6px;
+        text-align: left;
+        margin-top: 20px;   
+    }
+    .location{
+        flex-direction: column;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 6px;
+    }
+    .socials img{
+        width: 5%;
+    }
+}

@@ -1,0 +1,199 @@
+.banner img{
+    width: 10%;
+}
+.menu{
+    margin-top: 100px;
+}
+ .btn1{
+    margin: 30px;
+    border: none;
+    background: transparent;
+    width: 10%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn2{
+    margin: 30px;
+    border: none;
+    background: transparent;
+    width: 10%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn3{
+    margin: 30px;
+    border: none;
+    background: transparent;
+    width: 10%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn4{
+    margin: 30px;
+    border: none;
+    background: transparent;
+    width: 10%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menubtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menubtn button a{
+text-decoration: none;
+color: black;
+    font-size: 16px;
+}
+.menubtn .btn1:hover{
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+
+.menubtn .btn2:hover{
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+
+.menubtn .btn3:hover{
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+
+.menubtn .btn4:hover{
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+
+
+
+.menuproducts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    row-gap: 30px;
+    position: absolute;
+    left: 250px;
+    width: 900px;
+}
+.menupro{
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.15);
+}
+.menupro img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.menupro .name{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.menupro .price{
+padding-top: 10px;
+font-size: 16px;
+font-family: Alegreya;
+font-style: italic;
+}
+.menupro button{
+    width: 55%;
+    height: 35px;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 1px solid black;
+    font-family: Alegreya;
+    border-radius: 20px;
+}
+.menupro button a{
+    text-decoration: none;
+    color: black;
+}
+.menupro button:hover{
+    background: rgba(228, 217, 217, 0.884);
+    border: none;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .menubtn {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        margin-left: 150px;
+
+    }
+    .menuproducts{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        gap: 20px;
+        row-gap: 30px;
+        position: absolute;
+        left: 10px;
+        margin-top: 30px;
+        width: 350px;
+    }
+    .btn1{
+        margin: 10px;
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid black;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .btn2{
+        margin: 10px;
+        border: none;
+        background: transparent;
+        width: 100%;
+        border-bottom: 1px solid black;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .btn3{
+        margin: 10px;
+        border: none;
+        background: transparent;
+        width: 100%;
+        border-bottom: 1px solid black;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .btn4{
+        margin: 10px;
+        border: none;
+        background: transparent;
+        width: 100%;
+        border-bottom: 1px solid black;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .menupro img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+    }
+    .menupro button{
+        width: 70%;
+    }
+}

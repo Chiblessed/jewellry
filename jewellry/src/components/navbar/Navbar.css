@@ -1,0 +1,210 @@
+/*navbar_logo, navbar_links*/
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+border-bottom: 2px solid black;
+background-color: #fff;
+z-index: 1000;
+}
+.meunicon{
+visibility: hidden;}
+.navbar_logo{
+    font-size: 40px;
+    font-family: Alegreya;
+    padding-left: 10px;
+}
+.navbar_mobile_links{
+    display: none;
+}
+
+.navbar_links ul{
+    position: relative;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 10px;
+    font-size: 18px;
+    z-index: 1000;
+}
+.navbar_links ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.menbutton{
+    display: none;
+}
+.navbar_btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.navbar_btns button{
+    width: 60px;
+    font-size: 17px;
+    height: 30px;
+    font-family: Poppins;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+.navcartcount{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: -22px;
+   margin-left: -20px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: black;
+    color: white;
+}
+.navbar_btns button:hover{
+    width: 70px;
+    font-size: 18px;
+    border-bottom: 3px solid black;
+}
+.navbar_btns button a{
+    text-decoration: none;
+    color: black;
+}
+.navbar_btns img{
+    width: 30px;
+}
+
+.cursor{
+    position: absolute;
+    right: 10%;
+    bottom: -57%;
+    z-index: -1;
+    height: 2px;
+    border-radius: 100px;
+width: 96px;
+background-color: black;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        position: fixed;
+    width: 100%;
+z-index: 1000;
+background: #fff;
+    }
+    .meunicon img{
+        width: 40%;
+        position: relative;
+        left: 40px;
+    }
+    .navbar_logo{
+        font-size: 20px;
+        font-family: Alegreya;
+        padding-right: 15px;
+    }
+    .meunicon{
+        visibility: visible;
+    }
+    .menubtn{
+        position: relative;
+        height: 5rem;
+        width: 80px;
+        border-radius: 100%;
+        background: #fff;
+    }
+    
+   
+    .navbar_links{
+        display: none;
+    }
+    .navbar_mobile_links.open{
+        right: 0%;
+    }
+    .navbar_mobile_links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        position: absolute;
+        top: 70%;
+        width: 60%;
+        height: 55vh;
+        right: -100%;
+        border-bottom-left-radius: 40px;
+        border-top-left-radius: 40px;
+backdrop-filter: blur(10px);
+        z-index: 1000;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: -10px 0 10px  rgba(0, 0, 0, 0.2);
+        padding: 30px;
+        transform-origin: top;
+    }
+    .navbar_mobile_links .cartimg{
+        position: relative;
+        bottom: 40px;
+        left: 150px;
+        width: 16%;
+    }
+    .navbar_mobile_links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .navbar_mobile_links ul li{
+        list-style: none;
+    }
+    .navbar_mobile_links ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    .navbar_btns{
+        display: none;
+    }
+    .navbar_mobile_links button{
+        position: relative;
+        right: 35px;
+        width: 55%;
+        height: 30px;
+        margin-top: 20px;
+        border: none;
+        background: transparent;
+        border-bottom: 2px solid black;
+    }
+    .navbar_mobile_links button a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-family: Alegreya;
+       
+    }
+   .moblienavcount{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: -85px;
+   margin-left: 172px;
+    border-radius: 11px;
+    font-size: 13px;
+    background: black;
+    color: white;
+    z-index: 1000;
+   }
+}

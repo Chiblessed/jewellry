@@ -1,0 +1,98 @@
+.logincontainer{
+    margin: 130px auto 10px auto;
+    width: 450px;
+    height: 70vh;
+    border: 2px solid black;
+    border-radius: 10px;
+backdrop-filter: blur(10px);
+background: rgba(255, 255, 255, 0.2);
+box-shadow: -10px 0 10px  rgba(0, 0, 0, 0.2);
+}
+.logincontainer h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 20px;
+
+
+}
+
+.loginfield input{
+    width: 100%;
+    height: 20px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 16px;
+    padding: 20px;
+    font-family: Alegreya;
+   
+
+}
+.loginfield input:hover{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.loginfield .formbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.formbtn button{
+    width: 35%;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+    background: transparent;
+    margin-right: 15px;
+    font-family: Alegreya;
+    border-radius: 4px;
+
+}
+.formbtn button:hover{
+    background: rgb(235, 220, 232);
+    border: none;
+}
+.signup{
+    margin-left: 20px;
+}
+.signup p{
+    font-size: 18px;
+    font-family: Alegreya;
+
+}
+.signup button{
+    width: 40%;
+    height: 35px;
+    font-size: 16px;
+    border: 1px solid black;
+    background: transparent;
+    margin-right: 5px;
+    font-family: Alegreya;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logincontainer{
+        margin: 130px auto 10px auto;
+        width: 350px;
+        height: 70vh;
+        border: 1px solid black;
+        border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: -10px 0 10px  rgba(0, 0, 0, 0.2);
+    }
+}

@@ -1,0 +1,90 @@
+.promise{
+    margin-top: -1.5%;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+    width: 98.6vw;
+    height: 300px;
+    z-index: -1;
+display: flex;
+flex-direction: column;
+flex: 1;
+align-items: center;
+justify-content: center;
+background: #faf4f6;
+overflow-y: hidden;
+}
+.promise h1{
+        text-align: center;
+        margin-top: -3%;
+        font-family:Alegreya ;
+        font-weight: 300; 
+}
+.promises{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+.promisedetail{
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: center;
+}
+.promisedetail p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.promisedetail img{
+width: 25%;
+}
+.promisemessage{
+    margin-top: -2%;
+    padding: 10px;
+    background: #f5d3de;
+    width: 100%;
+    line-height: -1;
+    letter-spacing: 1px;
+    flex-wrap: wrap;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .promise{
+        margin-top: -1.5%;
+        overflow-x: hidden;
+        margin-bottom: 20px;
+        width: 98.6vw;
+        height: 400px;
+       
+    }
+    .promisedetail img{
+        width: 15%;
+        }
+    .promisedetail{
+        padding-left: 9px;
+        padding-right: 9px;
+        text-align: center;
+    }
+    .promises{
+display: grid;
+grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 2px;
+        margin-top: 40px;
+        
+    }
+    .promisemessage{
+       display: none;
+        
+    }
+     h1{
+        text-align: center;
+        margin-top: 3%;
+        font-family:Alegreya ;
+        font-weight: 300; 
+        font-size: 25px;
+}
+}
+

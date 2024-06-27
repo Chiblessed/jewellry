@@ -1,0 +1,8 @@
+body{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  /*
+  background: linear-gradient(to left,#F5F4EF, #A2967F, #C8BB9E,#F5F4EF);*/
+  
+}

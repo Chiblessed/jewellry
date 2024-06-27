@@ -1,0 +1,138 @@
+.details{
+    overflow-x: hidden;
+    margin-bottom: 20px;
+    width: 98.6vw;
+    z-index: -1;
+
+}
+.detail1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+ 
+
+
+}
+.detail1 .innerdetail1{
+    padding: 40px;
+}
+.innerdetail1 h1{
+    font-size: 40px;
+    font-family: Alegreya;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.innerdetail1 p{
+   line-height: 1.6;
+   margin-bottom: 20px;
+   font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+   font-weight: 300;
+}
+.innerdetail1 button{
+    width: 30%;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 16px;
+    background: transparent;
+    font-family: Alegreya;
+    margin-bottom: 50px;
+
+}
+.innerdetail1 button:hover{
+    border: none;
+    width: 35%;
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+.innerdetail button a{
+    text-decoration: none;
+    color: black;
+}
+.innerdetail1 button a{
+    text-decoration: none;
+    color: black;
+}
+.detail2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.detail2 .innerdetail{
+    padding: 40px;
+}
+.innerdetail h1{
+    font-size: 40px;
+    font-family: Alegreya;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+.innerdetail p{
+   line-height: 1.6;
+   margin-bottom: 20px;
+   font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+   font-weight: 300;
+}
+.innerdetail button{
+    width: 30%;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 16px;
+    background: transparent;
+    font-family: Alegreya;
+    margin-bottom: 50px;
+
+}
+.innerdetail button:hover{
+    border: none;
+    width: 35%;
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+.detail1 img{
+    width: 100%;
+}
+.detail2 img{
+    width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    .detail1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 4px;
+    }
+    .detail2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+    .detail2 img{
+        width: 100%;
+    }
+    .detail1 .innerdetail1{
+        padding: 14px;
+    }
+    .innerdetail1 h1{
+        font-size: 40px;
+        font-family: Alegreya;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+     .detail2  .innerdetail {
+        padding: 4px;
+    }
+}
