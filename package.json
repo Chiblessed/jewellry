@@ -2,5 +2,8 @@
   "dependencies": {
     "framer-motion": "^11.2.10",
     "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
