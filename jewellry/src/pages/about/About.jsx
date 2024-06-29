@@ -7,8 +7,6 @@ import Earrings11 from '../../assets/earring27.jpg';
 import Necklaces1 from '../../assets/product1.jpg';
 import Necklaces7 from '../../assets/necklace20.jpg';
 import Necklaces10 from '../../assets/necklace14.jpg';
-import Earrings2 from '../../assets/earring13.jpg';
-import Necklace2 from '../../assets/necklace2.jpg';
 
 
 
